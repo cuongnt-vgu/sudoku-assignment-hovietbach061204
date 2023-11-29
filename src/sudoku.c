@@ -255,6 +255,6 @@ int main(int argc, char **argv)
 
     // clean up
     free_sudoku(board);
-    free(board);
+    // free(board);
     return 0;
 }
